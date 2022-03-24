@@ -239,6 +239,7 @@ Only grant git repository permission to Synapse workspace artifact authors.
 -   **Collaboration**. It's recommended to not allow direct check-ins to the collaboration branch. This restriction can help prevent bugs as every check-in will go through a pull request review process described in [Creating feature branches](source-control.md#creating-feature-branches).
 -   **Synapse live mode**. After publishing in git mode,  all changes will be reflected in Synapse live mode. In Synapse live mode, publishing is disabled. And you can view, run artifacts in live mode if you have been granted the right permission. 
 -   **Edit artifacts in Studio**. Synapse studio is the only place you can enable workspace source control and sync changes to git automatically. Any change via SDK, PowerShell, will not be synced to git. We recommend you always edit artifact in Studio when git is enabled.
+- **Private Endpoints**.  Synapse studio will not make use of private endpoints when working in gitmode and will only do so when in Live Mode. 
 
 ## Troubleshooting git integration
 
